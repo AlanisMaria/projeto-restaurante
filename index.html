@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nekoma</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica&family=Arial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Nekoma</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Sabores do Japão em sua mesa</h1>
+            <p>Uma experiência gastronômica autêntica e inesquecível.</p>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>Nosso Menu</h2>
+            <div class="menu-item">
+                <img src="imagem/sushi.jpg" alt="Sushi clássico" width="500" height="400">
+                <div class="item-info">
+                    <h3>Sushi clássico</h3>
+                    <p>Variedade de urumaki com peixes frescos</p>
+                    <span>R$ 85,00</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="imagem/sashimi.jpg" alt="Sashimi de salmão" width="500" height="400">
+                <div class="item-info">
+                    <h3>Sashimi de salmão</h3>
+                    <p>Fatias finas de salmão fresco, servidas com wasabi e gengibre</p>
+                    <span>R$ 65,00</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="imagem/combinado.jpg" alt="Combinado especial" width="500" height="400">
+                <div class="item-info">
+                    <h3>Combinado especial</h3>
+                    <p>Uma seleção premium com os melhores sushis e sashimis do dia</p>
+                    <span>R$ 150,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery-section">
+            <h2>Nossa galeria</h2>
+            <div class="gallery-grid">
+                <img src="imagem/kenma.jpg" alt="Foto 1" width="100" height="100">
+                <img src="imagem/kuroo.jpg" alt="Foto 2" width="200" height="200">
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <h2>Entre em contato</h2>
+            <p>Estamos ansiosos para te receber! Faça a sua reserva</p>
+            
+            <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome completo" required><br><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" placeholder="Insira sua mensagem" row="5"></textarea><br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 Nekoma. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
